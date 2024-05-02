@@ -1,0 +1,103 @@
+@media only screen and (max-width: 767px) {
+    #u72 {
+        display: block;
+        max-width: 100%; /* Устанавливаем максимальную ширину контейнера равной ширине экрана */
+        padding: 0 20px; /* Добавляем отступы по бокам для изображения */
+      }
+    
+    #u73 {
+        width: 90%;
+        flex-direction: column; /* Расположить изображения в столбец */
+        align-items: center; /* Выравнивание по центру */
+        padding: 10px;
+    }
+    .menu1{
+        display: none;
+        flex-direction: column; /* Объединяем строки в столбик */
+        gap: 60px;
+        justify-content: flex-start;
+        align-items: center;
+        height: 50px;
+          
+    }
+    .nav-button {
+        display: flex;
+        top: 20px;
+      }
+    #top {
+        max-width: 100%; /* Максимальная ширина слайдера равна ширине экрана */
+        padding: 0 10px; /* Добавляем отступы по бокам для изображений */
+        top: 50xp;
+      }
+      
+      .arrow {
+            width: 50px;
+            height: 50px;
+      }
+      a.hyperlink {
+        text-decoration: none;
+        color: #673A1C;
+        text-decoration: none; /* Убираем подчеркивание */
+        font-weight: bold; /* Жирный шрифт */
+        background-color:#f9d195;
+        border: none;
+        border-radius: 0;
+         transition: border-color 0.3s ease;
+         padding: 0px;
+      }  
+      a.hyperlink:hover {
+            color: rgba(153, 227, 236, 1); /* Изменяем цвет текста при наведении */
+          }
+      
+
+      .nav.open .menu1 {
+		position: fixed;
+		top: 0px;
+		bottom: 5px;
+		left: 30px;
+		right: 0;
+		background-color: #f9d195;
+
+		z-index: 1;
+		padding: 46px 30px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+
+		font-size: 34px;
+		font-weight: 600;
+	}
+    .nav-button {
+		position: absolute; /* Абсолютное позиционирование для кнопки бургер-меню */
+		z-index: 9; /* Перекрывает остальные элементы */
+		top: 46px; /* Отступ сверху */
+		right: 30px; /* Отступ справа */
+	}
+
+    .nav.open .nav-button {
+        position: fixed; /* Фиксированное позиционирование для кнопки бургер-меню при открытом меню */
+    }
+
+      .ax_default.imag2 {
+        gap: 55px;
+      }
+      .header__burger-btn{
+        display: block;
+      }
+      .menu1{
+        position: absolute;
+        left: 0px;
+        top: px;
+        background-color:#f9d195;
+      }
+      .hyperlink{
+        text-decoration: none;
+        color: #673A1C;
+        padding: 11px 55px;
+        border-bottom: none;
+        transition: color 0.3s ease;
+        border-radius: 10px;
+        font-weight: 700;
+      }
+      
+}
